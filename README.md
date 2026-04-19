@@ -49,3 +49,7 @@ To predict user comfort and pressure distribution, I integrated advanced human b
 
 
 * Validation: Successfully established a methodology to extend physical user testing into a predictive virtual environment, allowing for the analysis of non-measurable parameters like internal stress distribution and heat transfer.
+
+## 💻Software
+* Abaqus
+* Ansa 
