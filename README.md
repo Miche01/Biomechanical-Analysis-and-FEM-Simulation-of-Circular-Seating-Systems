@@ -22,23 +22,29 @@ To predict user comfort and pressure distribution, I integrated advanced human b
 * Virtual Anatomy: Utilized the THUMS (Total Human Model for Safety) AM50 model (50th percentile male) and S/B (Sitting/Bending) configurations.
 
 * Model Optimization: Simplified the 2.1-million-element model by isolating the gluteal region. This reduced computational costs while maintaining anatomical accuracy at the contact interface.
-
+    <div align="center">
+             <img src="./Images/Set_up.png" align="central" width="800" alt="Stress distribution">
+  <p align="center">
+    <em><strong>Figure 1:</strong> Final model used for the FEM simulation.</em>
+  </p>
 * Biomechanical Mapping: Assigned specific material properties to human tissues (Bone: 17.3 GPa; Flesh/Soft Tissue: 1 GPa) and implemented body-weight distribution based on clinical literature. To ensure realistic simulation, loads were    applied to key anatomical landmarks proportional to Body Weight (BW):
-  <img src="./Images/punti_applicazione.jpg" align="right" width="800" alt="Pressure Zones Mapping">                               
+                             
   * **Ischial Tuberosities:** 18% BW
   * **Thighs:** 21% BW
   * **Sacrum:** 5% BW
-  
-
-<br clear="right"/>
-
+    
+<div align="center">
+  <img src="./Images/punti_applicazione.jpg" width="300" alt="Pressure Zones Mapping">
+  <br>
+  <em><strong>Figure 2:</strong> Anatomical Load Distribution Mapping</em>
+</div> 
 
 ## 📊 Key Findings
 * Pressure Mapping: Identified peak stress zones at the ischial tuberosities (approx. 5 kPa), aligning with ergonomic comfort standards.
   <div align="center">
-             <img src="./Images/VonMises_pressure.jpg" align="central" width="900" alt="Stress distribution">
+             <img src="./Images/VonMises_pressure.jpg" align="central" width="800" alt="Stress distribution">
   <p align="center">
-    <em><strong>Figure 1:</strong> On the left the Von Mises distribution on the skin. On the right Pressure distrbution on the muscles.</em>
+    <em><strong>Figure 3:</strong> On the left the Von Mises distribution on the skin. On the right Pressure distrbution on the muscles.</em>
   </p>
 
 
