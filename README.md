@@ -23,10 +23,18 @@ To predict user comfort and pressure distribution, I integrated advanced human b
 
 * Model Optimization: Simplified the 2.1-million-element model by isolating the gluteal region. This reduced computational costs while maintaining anatomical accuracy at the contact interface.
 
-* Biomechanical Mapping: Assigned specific material properties to human tissues (Bone: 17.3 GPa; Flesh/Soft Tissue: 1 GPa) and implemented body-weight distribution based on clinical literature:
-  * Ischial Tuberosities: 18% BW  
-  * Thighs: 21% BW  
-  * Sacrum: 5% BW
+* Biomechanical Mapping: Assigned specific material properties to human tissues (Bone: 17.3 GPa; Flesh/Soft Tissue: 1 GPa) and implemented body-weight distribution based on clinical literature.
+
+<img src="./Images/zone_applicazione_forze.png" align="right" width="300" alt="Pressure Zones Mapping">
+
+**Anatomical Load Distribution**
+To ensure realistic simulation, loads were applied to key anatomical landmarks proportional to Body Weight (BW):
+* **Ischial Tuberosities:** 18% BW
+* **Thighs:** 21% BW
+* **Sacrum:** 5% BW
+
+<br clear="right"/>
+
 
 ## 📊 Key Findings
 * Pressure Mapping: Identified peak stress zones at the ischial tuberosities (approx. 5 kPa), aligning with ergonomic comfort standards.
