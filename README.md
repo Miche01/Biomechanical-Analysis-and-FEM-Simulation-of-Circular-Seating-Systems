@@ -44,12 +44,12 @@ To predict user comfort and pressure distribution, I integrated advanced human b
   <div align="center">
              <img src="./Images/VonMises_pressure.jpg" align="central" width="800" alt="Stress distribution">
   <p align="center">
-    <em><strong>Figure 3:</strong> On the left the Von Mises distribution on the skin. On the right Pressure distrbution on the muscles.</em>
+    <em><strong>Figure 3:</strong> On the left the Von Mises distribution on the skin. On the right Pressure distribution on the muscles.</em>
   </p>
 
 
 * Validation: Successfully established a methodology to extend physical user testing into a predictive virtual environment, allowing for the analysis of non-measurable parameters like internal stress distribution and heat transfer.
 
 ## 💻Software
-* Abaqus
-* Ansa 
+* **Abaqus**
+* **Ansa** 
