@@ -17,9 +17,9 @@ I performed structural simulations using Abaqus CAE 2022 to replicate physical c
 * Accuracy: Achieved a high correlation between digital and physical tests, with vertical displacement results showing a consistent <10% error margin compared to experimental benchmarks.
 
 ### 2. Human-Product Interaction & Anatomical Modeling
-To predict user comfort and pressure distribution, I integrated advanced human body models into the simulation environment.
+To predict user comfort and pressure distribution, advanced human body models were integrated into the simulation environment. Due to the research's time constraints, the study focused on the initial phase of this integration, which involved defining and isolating the anatomical regions of interest. As a preliminary validation step, a rigid support was utilized instead of the cellular padding to establish a baseline for the human body's mechanical interaction and weight distribution.
 
-* Virtual Anatomy: Utilized the THUMS (Total Human Model for Safety) AM50 model (50th percentile male) and S/B (Sitting/Bending) configurations.
+* Virtual Anatomy: Utilized the THUMS (Total Human Model for Safety) AM50 model (50th percentile male) and S (Sitting) configurations.
 
 * Model Optimization: Simplified the 2.1-million-element model by isolating the gluteal region. This reduced computational costs while maintaining anatomical accuracy at the contact interface.
     <div align="center">
